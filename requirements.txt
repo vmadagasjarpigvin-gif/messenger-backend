@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic
+cryptography   # для генерации ключей (клиентская часть)
+pynacl         # альтернатива
